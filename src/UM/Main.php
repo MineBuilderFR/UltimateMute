@@ -69,10 +69,10 @@ class Main extends PluginBase implements Listener{
                 $sender->sendMessage("§cVous devez écrire les jours, les heures et les minutes avec au moins 2 chiffres.");
               }
             }else{
-              $sender->sendMessage("§cErreur d'arguments: essaye /mute {player} {days} {hours} {minutes}");
+              $sender->sendMessage("§cErreur d'arguments: essaie /mute {player} {days} {hours} {minutes}");
             }
           }else{
-            $sender->sendMessage("§cErreur d'arguments: essaye /mute {player} {days} {hours} {minutes}");
+            $sender->sendMessage("§cErreur d'arguments: essaie /mute {player} {days} {hours} {minutes}");
           }
         }else{
           $sender->sendMessage("§cVous n'avez pas la permission d'éxécuter cette commande.");
