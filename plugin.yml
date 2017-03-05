@@ -1,0 +1,15 @@
+name: UltimateMute
+main: UM\Main
+version: "1.0.0"
+api: [1.0.0]
+author: LCraftPE
+
+commands:
+  mute:
+    permission: lc.command.mute
+    description: "Mute a player"
+    
+permissions:
+  lc.command.mute:
+    default: op
+    description: Allow /mute
